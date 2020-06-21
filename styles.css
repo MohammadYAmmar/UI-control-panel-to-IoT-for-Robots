@@ -1,0 +1,43 @@
+body {
+    background-color: lightskyblue;
+  }
+
+  main{
+    padding: 15% 38%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    color: maroon;
+    font-size: 33px;
+    margin: 4px 2px;
+    cursor: -webkit-grab;   
+}
+
+.button_normal{
+    padding: 7px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button_red{
+    background-color: red;
+    padding: 7px 50px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 12px;
+    cursor: pointer;
+    
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    border: none;
+    text-align: center;
+}
