@@ -3,13 +3,27 @@ body {
   }
 
   main{
-    padding: 15% 38%;
+
+
+
     font-family: 'Times New Roman', Times, serif;
     font-style: oblique;
     color: maroon;
-    font-size: 33px;
-    margin: 4px 2px;
+    font-size: 33px; 
     cursor: -webkit-grab;   
+    width: 100%;
+    max-width: 1920px;
+    min-width: 480px;
+    height: 200px;
+    margin-left: -8px;
+    text-align: center;
+    clear: both;
+    display: inline-block; /*Important */
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+    padding: 100px 0 0;
+
 }
 
 .button_normal{
@@ -20,6 +34,9 @@ body {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    position:inherit;
+
+
 }
 
 .button_red{
@@ -29,15 +46,18 @@ body {
     font-size: 16px;
     margin: 4px 12px;
     cursor: pointer;
+    position:inherit;
+
     
 }
 
+/* New container to match the dimensions of the phone or any other screen */
 .container{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    border: none;
+    width: 100%;
+    max-width: 1920px;
+    min-width: 480px;
+    height: 200px;
+    margin-left: -8px;
+    overflow: hidden;
     text-align: center;
 }
